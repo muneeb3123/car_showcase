@@ -1,7 +1,7 @@
 const SearchBar = () => {
   return (
     <div>
-      SearchBar
+     <Combobox>Hello</Combobox>
     </div>
   )
 }
