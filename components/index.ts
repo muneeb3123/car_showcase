@@ -4,5 +4,6 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Daud from "./Daud";
 import Header from "./Header";
+import SearchBar from "./SearchBar";
 
-export { Hero, CustomButton, Navbar, Footer, Daud, Header};
+export { Hero, CustomButton, Navbar, Footer, Daud, Header, SearchBar};
