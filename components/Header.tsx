@@ -11,6 +11,7 @@ const Header = () => {
             <Link className="text-white font-bold text-base no-underline" href="/">Services</Link>
             <Link className="text-white font-bold text-base no-underline" href="/">Our Work</Link>
             <Link className="text-white font-bold text-base no-underline" href="/">Our projects</Link>
+            <Link className="text-white font-bold text-base no-underline" href="/">Our adress</Link>
             <button className="text-white bg-button p-4 rounded-3xl w-32 outline-none border-0">Enroll Now</button>
         </nav>
       </div>
