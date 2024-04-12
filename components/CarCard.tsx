@@ -55,6 +55,9 @@ const CarCard = ({car} : CarProps) => {
             <p className="text-[14px]">
               {city_mpg} MPG
             </p>
+            <p className="text-[14px]">
+              {city_mpg} MPG
+            </p>
           </div>
         </div>
         <div className="car-card__btn-container">
