@@ -74,6 +74,9 @@ const CarDetails = ({car, isOpen, closeModel}: carDetailsProps) => {
                   <Image src="/hero.png" alt="car-model" fill priority 
                   className="object-contain"
                   />
+                  <Image src="/hero.png" alt="car-model" fill priority 
+                  className="object-contain"
+                  />
                   </div>
                 </div>
               </div>
