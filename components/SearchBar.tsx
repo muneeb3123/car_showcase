@@ -1,12 +1,19 @@
-import { Combobox } from "@headlessui/react"
+"use client";
+import { useState } from "react";
+import { SearchManufacturer } from ".";
 
 const SearchBar = () => {
+  const [manufacturer, setManufacturer] = useState('')
+
+  const handleSearch = () => {}
   return (
-    <div>
-      <h1>Search Bar</h1>
-     <Combobox>Hello</Combobox>
-     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus similique praesentium error nulla est. Commodi, itaque ad minima iste incidunt, pariatur fugit, sed quae sapiente fuga illo iure expedita unde?</p>
-    </div>
+    <form className="searchbar" onSubmit={handleSearch}>
+      <div className="searchbar__item">
+        <SearchManufacturer manufacturer= {manufacturer} setManufacturer={setManufacturer}/>
+        <SearchManufacturer manufacturer= {manufacturer} setManufacturer={setManufacturer}/>
+
+      </div>
+    </form>
   )
 }
 
