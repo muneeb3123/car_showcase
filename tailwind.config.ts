@@ -11,33 +11,8 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
-      screens: {
-        'sm': {'min': '640px', 'max': '767px'},
-  
-        'md': {'min': '768px', 'max': '1023px'},
-  
-        'lg': {'min': '1024px', 'max': '1279px'},
-  
-        'xl': {'min': '1280px'},
-  
-        '2xl': {'min': '1536px'},
-    
-        'custom': {'min': '0' , 'max': '834px'},
-
-        'custom-2': {'min': '0' , 'max': '580px'},
-      },
-      fontWeight: {
-        '900': 900,
-      },
-      fontSize: {
-        '35': '3.5rem',
-        '30': '3rem', 
-        '22': '2.2rem',
-      },
       colors: {
         "black-100": "#2B2C35",
-        "orange": "#DA722C",
-        'button': '#023047',
         "primary-blue": {
           DEFAULT: "#2B59FF",
           100: "#F5F8FF",
@@ -51,8 +26,7 @@ module.exports = {
       },
       backgroundImage: {
         'pattern': "url('/pattern.png')",
-        'hero-bg': "url('/hero-bg.png')",
-        "hero-bg-2": "linear-gradient(180deg, #6F7DFB 0%, #26308C 100%)",
+        'hero-bg': "url('/hero-bg.png')"
       }
     },
   },
