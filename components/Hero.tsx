@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { CustomButton } from ".";
+import SearchBar from "./SearchBar";
 
 const Hero = () => {
   const handleScroll = () => {}
@@ -29,6 +30,7 @@ const Hero = () => {
         </div>
         <div className="hero__image-overlay" />
      </div>
+     <SearchBar />
     </div>
     
   )
